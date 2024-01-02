@@ -1,0 +1,40 @@
+.toolbar-container {
+  display: flex;
+  background-color: black;
+  padding: 10px;
+}
+
+.toolbar-text {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  order: 1;
+  margin-left: 550px;
+}
+
+.toolbar-button {
+  color: white;
+  background-color: #d9534f;
+  /* Red color */
+  padding: 8px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+
+.toolbar-button:hover {
+  background-color: #c9302c;
+  /* Darker red color on hover */
+}
+
+.toolbar-button:last-child {
+  background-color: #5bc0de;
+  /* Blue color for the last button */
+}
+
+.toolbar-button:last-child:hover {
+  background-color: #46b8da;
+  /* Darker blue color on hover */
+}
